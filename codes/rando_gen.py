@@ -39,23 +39,19 @@ def norm_(A):
 	return(np.linalg.norm(A))
 	
 #Sample size
-#simlen = 2
+simlen = 2
 #Possible outcomes
 #n = range(0,7)
 # Generate X1 and X2
 A = np.array([1,5])
-B = np.array([-4,5])
-C = np.array([-1,0])
-#y = np.random.randint(-6,6, size=(3, simlen))
-#print(y)
+B = np.array([0,0])
+C = np.array([0,0])
+y = np.random.randint(-6,6, size=(3, simlen))
+print(y)
 #Given that, 
-#A = y[0]
-#B = y[1]
-#C = y[2]
-
-#A = np.array([1,-1])
-#B = np.array([-4, 6])
-#C = np.array([-3,-5])
+A = y[0]
+B = y[1]
+C = y[2]
 
 A2X1 = A.reshape(2,1)
 B2X1 = B.reshape(2,1)
