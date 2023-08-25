@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.9)  25 AUG 2023 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.9)  25 AUG 2023 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main2.tex
-(./main2.tex
+**main1.tex
+(./main1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -108,8 +108,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count269
 \l__pdf_internal_box=\box58
 )
-No file main2.aux.
-\openout1 = `main2.aux'.
+(./main1.aux)
+\openout1 = `main1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -125,6 +125,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
@@ -154,8 +155,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ! Undefined control sequence.
 <argument> \myvec 
-                  {-2.5 \\ 2.5} 
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+                  {-5 \\ 10} 
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -166,7 +167,7 @@ and I'll forget about whatever was undefined.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -175,7 +176,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -184,7 +185,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -195,7 +196,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -204,7 +205,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -215,7 +216,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -224,7 +225,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -235,7 +236,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -244,7 +245,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -255,7 +256,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -264,7 +265,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -275,7 +276,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -284,7 +285,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -295,7 +296,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -304,7 +305,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -315,7 +316,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -324,7 +325,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -335,7 +336,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -344,7 +345,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -355,7 +356,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -364,7 +365,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -375,7 +376,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -384,7 +385,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -395,7 +396,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -404,7 +405,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -415,7 +416,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -424,7 +425,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -435,7 +436,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -444,7 +445,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -455,7 +456,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -464,7 +465,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -475,7 +476,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -484,7 +485,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -495,7 +496,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -504,7 +505,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -515,7 +516,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -524,7 +525,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -535,7 +536,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -544,7 +545,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -555,7 +556,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -564,7 +565,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -575,7 +576,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -584,7 +585,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -595,7 +596,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -604,7 +605,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -615,7 +616,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -624,7 +625,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -635,7 +636,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -644,7 +645,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -655,7 +656,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -664,7 +665,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -675,7 +676,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -684,7 +685,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -695,7 +696,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -704,7 +705,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -715,7 +716,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -724,7 +725,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -735,7 +736,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -744,7 +745,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -755,7 +756,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -764,7 +765,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -775,7 +776,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -784,7 +785,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -795,7 +796,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -804,7 +805,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -815,7 +816,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -824,7 +825,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -835,7 +836,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -844,7 +845,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -855,7 +856,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -864,7 +865,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -875,7 +876,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -884,7 +885,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -895,7 +896,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -904,7 +905,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -915,7 +916,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -924,7 +925,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -935,7 +936,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -944,7 +945,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -955,7 +956,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -964,7 +965,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -975,7 +976,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -984,7 +985,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -995,7 +996,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1004,7 +1005,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1015,7 +1016,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1024,7 +1025,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1035,7 +1036,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1044,7 +1045,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1055,7 +1056,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1064,7 +1065,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1075,7 +1076,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1084,7 +1085,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1095,7 +1096,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1104,7 +1105,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1115,7 +1116,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1124,7 +1125,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1135,7 +1136,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1144,16 +1145,16 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten \endgroup.
 <inserted text> }
                  
-l.208 ...dright}\gnumbox[l]{\myvec{-2.5 \\ 2.5} }}
+l.204 ...ggedright}\gnumbox[l]{\myvec{-5 \\ 10} }}
                                                   
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 1535 strings out of 476091
- 25448 string characters out of 5794082
+ 1537 strings out of 476091
+ 25468 string characters out of 5794082
  1850330 words of memory out of 5000000
  21949 multiletter control sequences out of 15000+600000
  515023 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,47p,202b,149s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 37i,12n,47p,202b,150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 !  ==> Fatal error occurred, no output PDF file produced!

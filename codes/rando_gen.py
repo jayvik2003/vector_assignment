@@ -39,19 +39,19 @@ def norm_(A):
 	return(np.linalg.norm(A))
 	
 #Sample size
-simlen = 2
+#simlen = 2
 #Possible outcomes
 #n = range(0,7)
 # Generate X1 and X2
-A = np.array([1,5])
-B = np.array([0,0])
-C = np.array([0,0])
-y = np.random.randint(-6,6, size=(3, simlen))
-print(y)
+A = np.array([1,-5])
+B = np.array([-4,5])
+C = np.array([-1,0])
+#y = np.random.randint(-6,6, size=(3, simlen))
+#print(y)
 #Given that, 
-A = y[0]
-B = y[1]
-C = y[2]
+#A = y[0]
+#B = y[1]
+#C = y[2]
 
 A2X1 = A.reshape(2,1)
 B2X1 = B.reshape(2,1)
@@ -66,9 +66,17 @@ print("The direction vector of BC is ",m_BC)
 print("The direction vector of CA is ",m_CA)
 
 #1.1.2
+AB_matrix = m_AB
+length_AB = norm_(AB_matrix)
+print("Length of side AB:", length_AB)
+
 BC_matrix = m_BC
 length_BC = norm_(BC_matrix)
 print("Length of side BC:", length_BC)
+
+CA_matrix = m_CA
+length_CA = norm_(CA_matrix)
+print("Length of side CA:", length_CA)
 
 #1.1.3
 one_mat=np.ones(3)
